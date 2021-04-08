@@ -357,9 +357,6 @@ align-items: center;
     }
     .nav-list{
         display: none;
-    }
-    .nav-list{
-        display: none;
         font-weight: normal;
         justify-content: flex-start;
         align-items: flex-start;
@@ -380,8 +377,10 @@ align-items: center;
         top: 3%;
     }
     .nav-link{
+        display: block;
         background-color: rgb(59, 71, 82);
-        padding: 16px 5px;
+        padding: 16px  20px;
+        width: 50%;
         margin: 5px 6px;
         border-radius: 10px;
         font-size: 22px;

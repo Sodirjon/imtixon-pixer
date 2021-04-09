@@ -379,11 +379,10 @@ align-items: center;
     .nav-link{
         display: block;
         background-color: rgb(59, 71, 82);
-        padding: 16px  20px;
-        width: 50%;
+        padding: 10px  20px;
         margin: 5px 6px;
         border-radius: 10px;
-        font-size: 22px;
+        font-size: 19px;
         font-weight: bold;
     }
     .closebtn{

@@ -10,6 +10,7 @@
     <script>
       function openNav(){
         document.getElementById ("mysidenav").style.display="flex";
+        document.getElementById("menu").style.dispaly="none";
       }
       function closeNav(){
         document.getElementById ("mysidenav").style.display="none";
@@ -33,7 +34,7 @@
               <li><a href="tel:+998946668366"><img class="nav-list-items--link" src="./img/Phone_icon.png" alt="phone icon"></a></li>
               <a class="closebtn"  href="javascript:void(0)" onclick="closeNav()"><img src="./img/closebtn-icon.png" class="closebtn-icon" alt="close icon"></a>
           </ul>
-          <div class="menu" onclick="openNav()">
+          <div id="menu" class="menu" onclick="openNav()">
             <div class="menu1"></div>
             <div class="menu1"></div>
             <div class="menu1"></div>
